@@ -1,0 +1,33 @@
+body 
+{
+    background-image: url(Photos/dota2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+@media only screen and (max-width: 768px) 
+{
+    body {
+        background-size: cover;
+    }
+}
+
+table th
+{
+    font-size: large;
+    background-color: transparent;
+    color: rgb(255, 148, 148);
+}
+
+table tr
+{
+    font-size: large;
+    color: rgb(150, 231, 10);
+}
+
+table tr:hover
+{
+    color: rgb(156, 72, 234) ;
+}

@@ -1,0 +1,47 @@
+body 
+{
+    background-image: url(Photos/juggernaut.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+@media only screen and (max-width: 768px) 
+{
+    body {
+        background-size: cover;
+    }
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form
+{
+    background-color: rgba(4, 170, 170, 0.7);
+    padding: 50px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+@media (max-width: 768px)
+{
+    form
+    {
+        width: 80%;
+    }
+    .formContainer
+    {
+        height: 125vh;
+    }
+}
+
+nav button:hover
+{
+    background-color: rgb(56, 56, 56) !important;
+}
